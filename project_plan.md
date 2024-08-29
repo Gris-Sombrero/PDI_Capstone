@@ -1,18 +1,26 @@
+# Project Overview
+
+	**This will be a budget tracking tool in a text based Python format.** The goal is to have it accept inputs from a CSV using positive and negative floats. In future
+iterations I will seek to add some data buckets that allow me to class expenditures by different groups to better understand waste in my budget.
+
+
 ## User Journey
 
-I sat down at my computer and opened up the dog API project. I wanted to see some cute pictures of dogs. I ran the program and read the welcome message. After that, the program gave me some options. I could search for a breed or just get a random image. I tried searching for a "chiuahu". The program told me that the dog breed didn't exist and suggested "chihuahua". I accepted the suggestion, and it gave me a link to click. Then it gave me the option to see another image, quit, or start over. I chose to start over. This time I chose to a random image, and saw a random dog. Finally, I chose the quit option.
+I designed my outline of expectations for feature performance in my code.
+
 
 ## Feature Outline
 
 - [ ] create welcome message
-- [ ] user input to chose random, by breed, or quit
-- [ ] create the by breed feature
-  - [ ] get all breads
-  - [ ] get the breed from the user
-  - [ ] create the suggestion feature
-  - [ ] use the API for that breed
-  - [ ] print the link
-- [ ] create the random feature
-  - [ ] use the random API 
-  - [ ] print the link
-- [ ] create a loop so the user can get back to the menu
+- [ ] user input to chose manual budge entries or .csv upload from a directory.
+- [ ] create a task by the selected budget method.
+  - [ ] get all the additions
+  - [ ] subtract all the negatives
+  - [ ] print the sum total of funds after budget is compiled with an f string message.
+  - [ ] Offer an option to export the result to a .txt file
+  - [ ] Have a loop asking if the user wants to input different number sets
+  - [ ] Either restart the tool at the beginning menu or close the tool depending on the answer for user.
+
+## Objectives
+
+
